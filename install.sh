@@ -25,7 +25,7 @@ echo "--- Extracting the AppImage ---"
 ./"${APPIMAGE_NAME}" --appimage-extract
 
 echo "--- Removing ALL bundled shared libraries ---"
-find squashfs-root -type f -name "*.so*" -print -delete
+find squashfs-root/usr/lib/ -type f -name "*" -print -delete
 
 echo "--- Repackaging the new AppImage ---"
 ./"${TOOL_NAME}" squashfs-root "${MODIFIED_APPIMAGE_NAME}"
