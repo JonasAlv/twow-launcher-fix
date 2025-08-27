@@ -5,7 +5,7 @@ set -e
 INSTALL_DIR="$HOME/Games/turtle-wow"
 APPIMAGE_URL="https://turtle-eu.b-cdn.net/client/9BEF2C29BE14CF2C26030B086DFC854DB56096DDEAABE31D33BFC6B131EC5529/TurtleWoW.AppImage"
 APPIMAGE_NAME="TurtleWoW.AppImage"
-MODIFIED_APPIMAGE_NAME="TurtleWoW-SystemLibs.AppImage"
+MODIFIED_APPIMAGE_NAME="TurtleWoW-fix.AppImage"
 TOOL_URL="https://github.com/AppImage/appimagetool/releases/download/continuous/appimagetool-x86_64.AppImage"
 TOOL_NAME="appimagetool-x86_64.AppImage"
 
