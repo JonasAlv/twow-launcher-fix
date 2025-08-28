@@ -11,3 +11,5 @@ cd twow-launcher-fix
 chmod +x install.sh
 sh install.sh
 ```
+
+You can also download the fixed appimage under [Releases](https://github.com/JonasAlv/twow-launcher-fix/releases)
